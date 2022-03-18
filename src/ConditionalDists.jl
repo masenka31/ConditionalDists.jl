@@ -12,12 +12,14 @@ export condition
 
 export ConditionalDistribution
 export ConditionalMvNormal
+export ConditionalCategorical
 export SplitLayer
 
 include("cond_dist.jl")
 
 include("batch_mvnormal.jl")
 include("cond_mvnormal.jl")
+include("categorical.jl")
 include("utils.jl")
 
 function __init__()
